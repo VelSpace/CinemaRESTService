@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: To combine fields from different domain objects
+- text: To convert a DTO to a domain object
+- text: To convert a domain object to a DTO
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25618#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 30 Apr 2023 12:44:40 UTC"
+record: -1
+selected_options:
+- 1
+- 2
+local_check: false
